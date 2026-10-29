@@ -1,4 +1,4 @@
-import { createServerApiClient } from "../createServerApiClient";
+import { createServerApiClient } from "../api/server/createServerApiClient";
 import { auth } from "@/auth";
 import { getConfig } from "@/shared/lib/server/getConfig";
 import { headers } from "next/headers";
